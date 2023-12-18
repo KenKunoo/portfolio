@@ -1,9 +1,12 @@
 "use client";
 
-import React from 'react';
 import Image from "next/image";
-import {motion} from "framer-motion";
-
+import React from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsArrowRight, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
     return (
@@ -39,7 +42,65 @@ export default function Intro() {
             <span className="font-bold">Computer Science</span>.
             Through coding, I am able to bring my vision into the real word.
         </motion.h1>
+        
+        <motion.div
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.5,
+        }}
+        >
+        <div>
+        <a
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 hover:scale-90 hover:bg-gray-950 active:scale-65 transition"
+          href="/CV.pdf"
+          download
+        >
+          Download Resume{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+        </div>
+        </motion.div>
 
+        <motion.div
+        className="py-3"
+        initial={{ opacity: 0, y: 100}}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+              stiffness: 82,
+              delay: 0.8,
+              duration: 0.7,
+        }}
+        >
+        <div>    
+        <a
+          className="bg-white p-4 text-gray-800 hover:text-gray-950 items-end inline-flex text-[1.8rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.linkedin.com/in/dkkenny/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-800 items-end inline-flex text-[2rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/KenKunoo"
+          target="_blank"
+        >
+          <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-800 items-end inline-flex text-[2rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.instagram.com/kennyy.dk/?hl=en"
+          target="_blank"
+        >
+          <BsInstagram />
+        </a>
+        </div>
+        </motion.div>
+        
         </section>
     );
 }
