@@ -29,9 +29,11 @@ export default function About() {
             into lucrative endeavors. Growing up in a low income family, I have perspective of the smaller details of life. Using the world of business and technology,
             I want to bridge the gap between the poor and the wealthy. 
         </p>
-        <div className="delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400">
-        <img src="picone.png" alt="Kenny Picture" width = "350" height = "350" className = "rounded-md object-cover border-[0.2rem] border-white shadow-x1"></img>
-        </div>
+
+        <img src="picone.png" alt="Kenny Picture" width = "350" height = "350" className = "inline-flex rounded-md object-cover border-[0.2rem] border-white shadow-x1"></img>
+        <img src="pictwo.png" alt="Kenny Picture" width = "350" height = "350" className = "inline-flex rounded-md object-cover border-[0.2rem] border-white shadow-x1"></img>
+        <img src="picthree.png" alt="Kenny Picture" width = "350" height = "350" className = "inline-flex rounded-md object-cover border-[0.2rem] border-white shadow-x1"></img>
+        <img src="picfour.png" alt="Kenny Picture" width = "350" height = "350" className = "inline-flex rounded-md object-cover border-[0.2rem] border-white shadow-x1"></img>
       </motion.section>
     );
   }
