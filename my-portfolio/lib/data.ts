@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 
 import corpcommentImg from "@/public/corpcomment.png";
 import carSafetyImg from "@/public/carsafety.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import gameImg from "@/public/game.png";
 import websitePic from "@/public/websitepic.png";
 
 
@@ -77,11 +77,19 @@ export const projectsData = [
     projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
   },
   {
-    title: "Word Analytics",
+    title: "Modern Car Safety",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Data Science project with five other people, comparing modern vehicle safety to older vehicles.",
+    tags: ["PANDAS", "Python", "Jupyter", "Seaborn"],
+    imageUrl: carSafetyImg,
+    projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
+  },
+  {
+    title: "War of Ages",
+    description:
+      "A video game recreation of my favorite childhood flash game using ROBLOX Studio.",
+    tags: ["LUA", "ROBLOX Studio", "AI"],
+    imageUrl: gameImg,
     projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
   },
   {
