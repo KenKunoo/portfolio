@@ -2,7 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-
 import proj110 from "@/public/project110.png";
 import carSafetyImg from "@/public/carsafety.png";
 import gameImg from "@/public/game.png";
