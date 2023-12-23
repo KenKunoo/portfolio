@@ -57,7 +57,7 @@ export const projectsData = [
     title: "Cypto Screener App",
     description:
       "Track cryptocurrency through real-time data and organize trade with a simple interface",
-    tags: ["React", "Tailwind", "Context API", "Javascript"],
+    tags: ["React", "Tailwind", "Context API", "Javascript", "Fast API", "Restful"],
     imageUrl: cryptoPic,
     projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
   },
