@@ -27,8 +27,8 @@ export default function RootLayout({
         <div className="bg-[#cfe1f7] absolute top-[260rem] -z-10 left-[-35rem] h-[17.25rem] w-[65rem] rounded-full blur-[15rem] sm:w-[68.75rem] md:left-[33rem] lg:left-[253rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#7d83b3]"></div>
         <div className="bg-[#b5adf8] absolute top-[260rem] -z-10 right-[11rem] h-[17.25rem] w-[31.25rem] rounded-full blur-[20rem] sm:w-[68.75rem] dark:bg-[#6369b9]"></div>
 
-        <div className="bg-[#b6bfe9] absolute top-[360rem] -z-10 left-[-35rem] h-[13.25rem] w-[25rem] rounded-full blur-[15rem] sm:w-[68.75rem] md:left-[33rem] lg:left-[253rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#7d83b3]"></div>
-        <div className="bg-[#676877] absolute top-[360rem] -z-10 right-[11rem] h-[13.25rem] w-[31.25rem] rounded-full blur-[15rem] sm:w-[68.75rem] dark:bg-[#6369b9]"></div>
+        <div className="bg-[#b8c0e4] absolute top-[360rem] -z-10 left-[-35rem] h-[13.25rem] w-[25rem] rounded-full blur-[15rem] sm:w-[68.75rem] md:left-[33rem] lg:left-[253rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#7d83b3]"></div>
+        <div className="bg-[#9495a8] absolute top-[360rem] -z-10 right-[11rem] h-[13.25rem] w-[31.25rem] rounded-full blur-[15rem] sm:w-[68.75rem] dark:bg-[#6369b9]"></div>
       
         <ActiveSectionContextProvider>
           <Header />
