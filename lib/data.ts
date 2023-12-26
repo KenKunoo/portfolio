@@ -42,7 +42,7 @@ export const projectsData = [
       "Software project that allowed students and professor to communicate with intuitive feedback.",
     tags: ["HTML", "CSS", "Javascript", "API", "Agile"],
     imageUrl: proj110,
-    projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
+    projectLink: 'https://github.com/KenKunoo/Notetaking-App',
   },
   {
     title: "Modern Car Safety",
@@ -66,7 +66,7 @@ export const projectsData = [
       "A video game recreation of my favorite childhood flash game using ROBLOX Studio.",
     tags: ["LUA", "ROBLOX Studio", "AI"],
     imageUrl: gameImg,
-    projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
+    projectLink: 'https://www.roblox.com/games/14714487955/War-of-Ages-Official-Release',
   },
   {
     title: "This Website",
@@ -74,7 +74,7 @@ export const projectsData = [
       "A minimialistic website used to display information about myself.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Framer"],
     imageUrl: websitePic,
-    projectLink: 'https://github.com/KenKunoo/Modern-Car-Safety-Features',
+    projectLink: 'https://github.com/KenKunoo/portfolio',
   },
 ] as const;
 
