@@ -24,7 +24,7 @@ export default function Contact() {
             }}>
             <SectionHeading> <span className="font-bold"> Contact Me </span> </SectionHeading>
 
-            <form
+        <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
